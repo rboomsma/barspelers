@@ -1,11 +1,7 @@
 <?php
-/**
-* @version $Id: ue_config_first.php 1623 2011-11-01 20:36:14Z beat $
-*/
-$ueConfig['this_is_default_config']='1';
 $ueConfig['name_style']='1';
 $ueConfig['name_format']='3';
-$ueConfig['date_format']='m/d/Y';
+$ueConfig['date_format']='m-d-Y';
 $ueConfig['calendar_type']='2';
 $ueConfig['allow_email_display']='3';
 $ueConfig['allow_email_replyto']='1';
@@ -13,7 +9,8 @@ $ueConfig['allow_email']='1';
 $ueConfig['allow_website']='1';
 $ueConfig['allow_onlinestatus']='1';
 $ueConfig['icons_display']='7';
-$ueConfig['reg_admin_allowcbregistration']='0';
+$ueConfig['login_type']='0';
+$ueConfig['reg_admin_allowcbregistration']='1';
 $ueConfig['emailpass']='0';
 $ueConfig['reg_admin_approval']='0';
 $ueConfig['reg_confirmation']='1';
@@ -58,6 +55,7 @@ $ueConfig['allow_profilelink']='1';
 $ueConfig['usernameedit']='1';
 $ueConfig['adminrequiredfields']='1';
 $ueConfig['allow_profileviewbyGID']='-1';
+$ueConfig['maxEmailsPerHr']='10';
 $ueConfig['minHitsInterval']='60';
 $ueConfig['templatedir']='default';
 $ueConfig['left2colsWidth']='50';
@@ -83,7 +81,7 @@ $ueConfig['avatarWidth']='200';
 $ueConfig['avatarSize']='2000';
 $ueConfig['thumbHeight']='86';
 $ueConfig['thumbWidth']='60';
-$ueConfig['imageApproverGid']='0';
+$ueConfig['imageApproverGid']='7';
 $ueConfig['allowModUserApproval']='1';
 $ueConfig['moderatorEmail']='1';
 $ueConfig['allowUserReports']='1';
@@ -101,5 +99,5 @@ Co Worker';
 $ueConfig['translations_debug']='0';
 $ueConfig['enableSpoofCheck']='1';
 $ueConfig['noVersionCheck']='0';
-$ueConfig['version']='1.4';
+$ueConfig['version']='1.9.1';
 ?>

@@ -6,3 +6,4 @@
 #Fields: datetime	priority clientip	category	message
 2014-10-08T13:49:26+00:00	INFO 82.95.72.3	joomlafailure	De combinatie van gebruikersnaam en wachtwoord is niet correct of u heeft nog geen account.
 2014-10-09T06:59:46+00:00	INFO 85.150.81.66	joomlafailure	De combinatie van gebruikersnaam en wachtwoord is niet correct of u heeft nog geen account.
+2014-10-09T14:36:37+00:00	INFO 82.95.72.3	joomlafailure	De combinatie van gebruikersnaam en wachtwoord is niet correct of u heeft nog geen account.
