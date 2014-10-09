@@ -1,0 +1,877 @@
+/* ---------------------------------------
+	Standard styles formatting
+	created with Template Creator
+        on http://www.template-creator.com
+-----------------------------------------*/
+
+
+html {
+  height: 101%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .contentheading, .componentheading {
+  padding: 3px 0;
+  margin: 0;
+  line-height: 1.2;
+  font-weight: bold;
+  font-style: normal;
+}
+h1, .componentheading {
+  font-size: 1.75em;
+}
+h2, .contentheading {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+}
+h4 {
+  font-size: 1em;
+}
+
+ul, ol {
+  padding: .75em 0 .75em 0;
+  margin: 0 0 0 35px;
+}
+
+ul.menu {
+    margin: 0;
+}
+
+ul.menu li {
+    list-style: none;
+}
+
+p {
+  padding: 5px 0;
+}
+
+address {
+  margin: .75em 0;
+  font-style: normal;
+}
+
+a:focus {
+    outline: none;
+}
+
+img {
+  border: none;
+}
+
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+
+form, fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+input, button, select {
+  vertical-align: middle;
+}
+
+.clr {
+	clear : both;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+.full {
+	width: 100%;
+}
+
+.demi {
+	width: 50%;
+}
+
+.tiers {
+	width: 33.33%;
+}
+
+.quart {
+	width: 25%;
+}
+
+.flexiblemodule, .column, .logobloc {
+        float: right;
+}
+
+/* ---------------------------------------
+	Custom styling
+-----------------------------------------*/
+
+
+
+
+body {
+	text-align: right;
+}
+
+h1, div.componentheading {
+	text-align: right;
+}
+
+h2, div.contentheading {
+	text-align: right;
+}
+
+h3 {
+	text-align: right;
+}
+
+h4 {
+	text-align: right;
+}
+
+h5 {
+	text-align: right;
+}
+
+h6 {
+	text-align: right;
+}
+
+.button, button {
+    border: none;
+	text-align: right;
+}
+
+.button:hover,button:hover {
+	text-align: right;
+}
+
+ul.pagenav li a {
+    display: block;
+	text-align: right;
+}
+
+ul.pagenav li a:hover {
+	text-align: right;
+}
+
+.readmore a,div.item a.btn {
+	text-align: right;
+}
+
+.readmore a:hover,div.item a.btn:hover {
+	text-align: right;
+}
+
+.invalid {border: red;}
+                
+input,input.inputbox, .registration input, .login input, .contact input, .contact textarea {
+    border: none;
+	text-align: right;
+}
+
+input:focus,input.inputbox:focus, .registration input:focus, .login input:focus, .contact input:focus, .contact textarea:focus {
+	text-align: right;
+}
+
+#wrapper {
+	width: 1000px;
+	text-align: right;
+}
+
+#mainbanner {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#mainbanner div.moduletable, #mainbanner div.module,
+#mainbanner div.moduletable_menu, #mainbanner div.module_menu {
+	text-align: right;
+}
+
+#mainbanner div.moduletable h3, #mainbanner div.module h3,
+#mainbanner div.moduletable_menu h3, #mainbanner div.module_menu h3 {
+	text-align: right;
+}
+
+#logo {
+	text-align: right;
+}
+
+#logodesc {
+	text-align: right;
+}
+
+#banner {
+	width: 400px;
+	text-align: right;
+	background-color:orange;
+}
+
+#banner div.moduletable, #banner div.module,
+#banner div.moduletable_menu, #banner div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#banner div.moduletable h3, #banner div.module h3,
+#banner div.moduletable_menu h3, #banner div.module_menu h3 {
+	text-align: right;
+}
+
+#nav {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+	background-color:Maroon;
+}
+
+#nav div.moduletable, #nav div.module,
+#nav div.moduletable_menu, #nav div.module_menu {
+	text-align: right;
+}
+
+#nav div.moduletable h3, #nav div.module h3,
+#nav div.moduletable_menu h3, #nav div.module_menu h3 {
+	text-align: right;
+}
+#nav ul.menu {
+            margin: 0;
+            padding: 0;
+            zoom: 1;
+}
+
+#nav ul.menu:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+#nav ul.menu li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style:none;
+        white-space: nowrap;
+}
+
+#nav ul.menu > li > a, #nav ul.menu > li > span.separator {
+    display:block;
+	text-align: right;
+}
+
+#nav ul.menu > li:hover > a {
+	text-align: right;
+}
+
+#nav ul.menu > li.active > a {
+	text-align: right;
+}
+
+#nav ul.menu li li a, #nav ul.menu li li span.separator {
+    display:block;
+	text-align: right;
+}
+
+#nav ul.menu li li:hover > a {
+	text-align: right;
+}
+
+#nav ul.menu li li.active > a {
+	text-align: right;
+}
+
+/* code pour menu normal */
+#nav ul.menu li ul, #nav ul.menu li:hover ul ul, #nav ul.menu li:hover ul ul ul {
+	position: absolute;
+	left: -999em;
+	z-index: 999;
+        margin: 0;
+        padding: 0;
+}
+
+
+#nav ul.menu li:hover ul ul, #nav ul.menu li:hover li:hover ul ul, #nav ul.menu li:hover li:hover li:hover ul ul,
+#nav ul.menu li.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul.sfhover ul ul {
+	left: -999em;
+}
+
+#nav ul.menu li:hover > ul, #nav ul.menu li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover ul li:hover > ul,
+#nav ul.menu li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul li.sfhover ul {
+	left: auto;
+}
+
+#nav ul.menu li:hover ul li:hover ul {
+}
+
+/* fin code normal */
+
+#nav ul.menu.maximenuCK li ul, #nav ul.menu.maximenuCK li:hover ul ul, #nav ul.menu.maximenuCK li:hover ul ul ul,
+#nav ul.menu.maximenuck li ul, #nav ul.menu.maximenuck li:hover ul ul, #nav ul.menu.maximenuck li:hover ul ul ul {
+	position: static !important;
+	left: auto !important;
+	background: transparent !important;
+	border-radius: 0 !important;
+    border: none !important;
+	-moz-border-radius: 0 !important;
+	-o-border-radius:  0 !important;
+	-webkit-border-radius: 0 !important;
+	width: 100% !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+#nav ul.menu.maximenuCK li ul ul,
+#nav ul.menu.maximenuck li ul ul {
+	margin: 0 !important;
+}
+
+#nav li div.floatCK, 
+#nav li div.floatck {
+}
+
+#nav ul.menu li ul.maximenuCK2,
+#nav ul.menu li ul.maximenuck2 {
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul.menu li div.maximenuCK2,
+#nav ul.menu li div.maximenuck2 {
+    float: left;
+    width: 100%;
+}
+
+#nav ul li.maximenuCK div.floatCK div.floatCK,
+#nav ul li.maximenuck div.floatck div.floatck {
+}
+
+#nav span.descCK,
+#nav span.descck {
+    display: block;
+    line-height: 10px;
+}
+
+#nav ul.menu li li {
+    float: none;
+    display: block;
+}
+
+
+#slideshow {
+	text-align: right;
+	background-color:red;
+}
+
+#slideshow div.moduletable, #slideshow div.module,
+#slideshow div.moduletable_menu, #slideshow div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#slideshow div.moduletable h3, #slideshow div.module h3,
+#slideshow div.moduletable_menu h3, #slideshow div.module_menu h3 {
+	text-align: right;
+}
+
+#modulestop > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+	background-color:pink;
+}
+
+#modulestop div.moduletable, #modulestop div.module,
+#modulestop div.moduletable_menu, #modulestop div.module_menu {
+	text-align: right;
+}
+
+#modulestop div.moduletable h3, #modulestop div.module h3,
+#modulestop div.moduletable_menu h3, #modulestop div.module_menu h3 {
+	text-align: right;
+}
+
+#moduletop1 > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+	background-color:brown;
+}
+
+#moduletop1 div.moduletable, #moduletop1 div.module,
+#moduletop1 div.moduletable_menu, #moduletop1 div.module_menu {
+	text-align: right;
+}
+
+#moduletop1 div.moduletable h3, #moduletop1 div.module h3,
+#moduletop1 div.moduletable_menu h3, #moduletop1 div.module_menu h3 {
+	text-align: right;
+}
+
+#moduletop2 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#moduletop2 div.moduletable, #moduletop2 div.module,
+#moduletop2 div.moduletable_menu, #moduletop2 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#moduletop2 div.moduletable h3, #moduletop2 div.module h3,
+#moduletop2 div.moduletable_menu h3, #moduletop2 div.module_menu h3 {
+	text-align: right;
+}
+
+#moduletop3 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#moduletop3 div.moduletable, #moduletop3 div.module,
+#moduletop3 div.moduletable_menu, #moduletop3 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#moduletop3 div.moduletable h3, #moduletop3 div.module h3,
+#moduletop3 div.moduletable_menu h3, #moduletop3 div.module_menu h3 {
+	text-align: right;
+}
+
+#moduletop4 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#moduletop4 div.moduletable, #moduletop4 div.module,
+#moduletop4 div.moduletable_menu, #moduletop4 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#moduletop4 div.moduletable h3, #moduletop4 div.module h3,
+#moduletop4 div.moduletable_menu h3, #moduletop4 div.module_menu h3 {
+	text-align: right;
+}
+
+#main {
+	text-align: right;
+}
+
+#main div.moduletable, #main div.module,
+#main div.moduletable_menu, #main div.module_menu {
+	text-align: right;
+}
+
+#main div.moduletable h3, #main div.module h3,
+#main div.moduletable_menu h3, #main div.module_menu h3 {
+	text-align: right;
+}
+
+#left > div.inner {
+	zoom: 1;
+	text-align: right;
+	background-color:green;
+}
+
+#left div.moduletable, #left div.module,
+#left div.moduletable_menu, #left div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#left div.moduletable h3, #left div.module h3,
+#left div.moduletable_menu h3, #left div.module_menu h3 {
+	text-align: right;
+}
+
+#center > div.inner {
+	zoom: 1;
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#center div.moduletable, #center div.module,
+#center div.moduletable_menu, #center div.module_menu {
+	text-align: right;
+}
+
+#center div.moduletable h3, #center div.module h3,
+#center div.moduletable_menu h3, #center div.module_menu h3 {
+	text-align: right;
+}
+
+#right > div.inner {
+	zoom: 1;
+	text-align: right;
+	background-color:purple;
+}
+
+#right div.moduletable, #right div.module,
+#right div.moduletable_menu, #right div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#right div.moduletable h3, #right div.module h3,
+#right div.moduletable_menu h3, #right div.module_menu h3 {
+	text-align: right;
+}
+
+#modulesbottom > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+	background-color:gray;
+}
+
+#modulesbottom div.moduletable, #modulesbottom div.module,
+#modulesbottom div.moduletable_menu, #modulesbottom div.module_menu {
+	text-align: right;
+}
+
+#modulesbottom div.moduletable h3, #modulesbottom div.module h3,
+#modulesbottom div.moduletable_menu h3, #modulesbottom div.module_menu h3 {
+	text-align: right;
+}
+
+#modulebottom1 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#modulebottom1 div.moduletable, #modulebottom1 div.module,
+#modulebottom1 div.moduletable_menu, #modulebottom1 div.module_menu {
+	text-align: right;
+}
+
+#modulebottom1 div.moduletable h3, #modulebottom1 div.module h3,
+#modulebottom1 div.moduletable_menu h3, #modulebottom1 div.module_menu h3 {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#modulebottom2 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#modulebottom2 div.moduletable, #modulebottom2 div.module,
+#modulebottom2 div.moduletable_menu, #modulebottom2 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#modulebottom2 div.moduletable h3, #modulebottom2 div.module h3,
+#modulebottom2 div.moduletable_menu h3, #modulebottom2 div.module_menu h3 {
+	text-align: right;
+}
+
+#modulebottom3 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#modulebottom3 div.moduletable, #modulebottom3 div.module,
+#modulebottom3 div.moduletable_menu, #modulebottom3 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#modulebottom3 div.moduletable h3, #modulebottom3 div.module h3,
+#modulebottom3 div.moduletable_menu h3, #modulebottom3 div.module_menu h3 {
+	text-align: right;
+}
+
+#modulebottom4 > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+	background-color:brown;
+}
+
+#modulebottom4 div.moduletable, #modulebottom4 div.module,
+#modulebottom4 div.moduletable_menu, #modulebottom4 div.module_menu {
+	text-align: right;
+}
+
+#modulebottom4 div.moduletable h3, #modulebottom4 div.module h3,
+#modulebottom4 div.moduletable_menu h3, #modulebottom4 div.module_menu h3 {
+	text-align: right;
+}
+
+#top-footer {
+	text-align: right;
+	background-color:aqua;
+}
+
+#top-footer div.moduletable, #top-footer div.module,
+#top-footer div.moduletable_menu, #top-footer div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#top-footer div.moduletable h3, #top-footer div.module h3,
+#top-footer div.moduletable_menu h3, #top-footer div.module_menu h3 {
+	text-align: right;
+}
+
+#modules > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+	background-color:yellow;
+
+}
+
+#modules div.moduletable, #modules div.module,
+#modules div.moduletable_menu, #modules div.module_menu {
+	text-align: right;
+}
+
+#modules div.moduletable h3, #modules div.module h3,
+#modules div.moduletable_menu h3, #modules div.module_menu h3 {
+	text-align: right;
+}
+
+#module1 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#module1 div.moduletable, #module1 div.module,
+#module1 div.moduletable_menu, #module1 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#module1 div.moduletable h3, #module1 div.module h3,
+#module1 div.moduletable_menu h3, #module1 div.module_menu h3 {
+	text-align: right;
+}
+
+#module2 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#module2 div.moduletable, #module2 div.module,
+#module2 div.moduletable_menu, #module2 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#module2 div.moduletable h3, #module2 div.module h3,
+#module2 div.moduletable_menu h3, #module2 div.module_menu h3 {
+	text-align: right;
+}
+
+#module3 > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+	background-color:brown;
+}
+
+#module3 div.moduletable, #module3 div.module,
+#module3 div.moduletable_menu, #module3 div.module_menu {
+	text-align: right;
+}
+
+#module3 div.moduletable h3, #module3 div.module h3,
+#module3 div.moduletable_menu h3, #module3 div.module_menu h3 {
+	text-align: right;
+}
+
+#module4 > div.inner {
+	text-align: right;
+	background-color:brown;
+}
+
+#module4 div.moduletable, #module4 div.module,
+#module4 div.moduletable_menu, #module4 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+}
+
+#module4 div.moduletable h3, #module4 div.module h3,
+#module4 div.moduletable_menu h3, #module4 div.module_menu h3 {
+	text-align: right;
+}
+
+#nav {
+	margin: 2px;
+	padding: 10px;
+	text-align: right;
+	background-color:blue;
+}
+
+#nav div.moduletable, #nav div.module,
+#nav div.moduletable_menu, #nav div.module_menu {
+	text-align: right;
+	background-color:blue;
+}
+
+#nav div.moduletable h3, #nav div.module h3,
+#nav div.moduletable_menu h3, #nav div.module_menu h3 {
+	text-align: right;
+}
+#nav ul.menu {
+            margin: 0;
+            padding: 0;
+            zoom: 1;
+}
+
+#nav ul.menu:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+#nav ul.menu li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style:none;
+        white-space: nowrap;
+}
+
+#nav ul.menu > li > a, #nav ul.menu > li > span.separator {
+    display:block;
+	text-align: right;
+}
+
+#nav ul.menu > li:hover > a {
+	text-align: right;
+}
+
+#nav ul.menu > li.active > a {
+	text-align: right;
+}
+
+#nav ul.menu li li a, #nav ul.menu li li span.separator {
+    display:block;
+	text-align: right;
+}
+
+#nav ul.menu li li:hover > a {
+	text-align: right;
+}
+
+#nav ul.menu li li.active > a {
+	text-align: right;
+}
+
+/* code pour menu normal */
+#nav ul.menu li ul, #nav ul.menu li:hover ul ul, #nav ul.menu li:hover ul ul ul {
+	position: absolute;
+	left: -999em;
+	z-index: 999;
+        margin: 0;
+        padding: 0;
+}
+
+
+#nav ul.menu li:hover ul ul, #nav ul.menu li:hover li:hover ul ul, #nav ul.menu li:hover li:hover li:hover ul ul,
+#nav ul.menu li.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul.sfhover ul ul {
+	left: -999em;
+}
+
+#nav ul.menu li:hover > ul, #nav ul.menu li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover ul li:hover > ul,
+#nav ul.menu li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul li.sfhover ul {
+	left: auto;
+}
+
+#nav ul.menu li:hover ul li:hover ul {
+}
+
+/* fin code normal */
+
+#nav ul.menu.maximenuCK li ul, #nav ul.menu.maximenuCK li:hover ul ul, #nav ul.menu.maximenuCK li:hover ul ul ul,
+#nav ul.menu.maximenuck li ul, #nav ul.menu.maximenuck li:hover ul ul, #nav ul.menu.maximenuck li:hover ul ul ul {
+	position: static !important;
+	left: auto !important;
+	background: transparent !important;
+	border-radius: 0 !important;
+    border: none !important;
+	-moz-border-radius: 0 !important;
+	-o-border-radius:  0 !important;
+	-webkit-border-radius: 0 !important;
+	width: 100% !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+#nav ul.menu.maximenuCK li ul ul,
+#nav ul.menu.maximenuck li ul ul {
+	margin: 0 !important;
+}
+
+#nav li div.floatCK, 
+#nav li div.floatck {
+}
+
+#nav ul.menu li ul.maximenuCK2,
+#nav ul.menu li ul.maximenuck2 {
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul.menu li div.maximenuCK2,
+#nav ul.menu li div.maximenuck2 {
+    float: left;
+    width: 100%;
+}
+
+#nav ul li.maximenuCK div.floatCK div.floatCK,
+#nav ul li.maximenuck div.floatck div.floatck {
+}
+
+#nav span.descCK,
+#nav span.descck {
+    display: block;
+    line-height: 10px;
+}
+
+#nav ul.menu li li {
+    float: none;
+    display: block;
+}
+

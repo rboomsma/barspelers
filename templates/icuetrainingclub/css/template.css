@@ -1,0 +1,1177 @@
+/* ---------------------------------------
+	Standard styles formatting
+	created with Template Creator
+        on http://www.template-creator.com
+-----------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+
+html {
+  height: 101%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'PT Sans',Arial,Helvetica,sans-serif;
+  color:#555;
+  font-size:17px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .contentheading, .componentheading {
+  padding: 3px 0;
+  margin: 0;
+  line-height: 1.2;
+  font-weight: bold;
+  font-style: normal;
+}
+h1, .componentheading {
+  font-size: 1.75em;
+}
+h2, .contentheading {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+ul, ol {
+  padding: .75em 0 .75em 0;
+  margin: 0 0 0 35px;
+}
+
+ul.menu {
+    margin: 0;
+}
+
+ul.menu li {
+    list-style: none;
+}
+
+p {
+  padding: 5px 0;
+}
+
+address {
+  margin: .75em 0;
+  font-style: normal;
+}
+
+a:focus {
+    outline: none;
+}
+
+img {
+  border: none;
+}
+
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+
+form, fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+input, button, select {
+  vertical-align: middle;
+}
+
+.clr {
+	clear : both;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+.full {
+	width: 100%;
+}
+
+.demi {
+	width: 50%;
+}
+
+.tiers {
+	width: 33.33%;
+}
+
+.quart {
+	width: 25%;
+	
+}
+
+.flexiblemodule, .column, .logobloc {
+        float: left;
+}
+
+/* ---------------------------------------
+	Custom styling
+-----------------------------------------*/
+
+body {
+	text-align: left;
+	
+		
+}
+
+h1, div.componentheading {
+	color:#1F1F1F;
+}
+
+h2, div.contentheading {
+	text-align: left;
+}
+
+h3 {
+	text-align: left;
+}
+
+h4 {
+	text-align: left;
+}
+
+h5 {
+	text-align: left;
+}
+
+h6 {
+	text-align: left;
+}
+
+
+.button, button {
+    border: none;
+	text-align: left;
+}
+
+.button:hover,button:hover {
+	text-align: left;
+}
+
+ul.pagenav li a {
+    display: block;
+	text-align: left;
+}
+
+ul.pagenav li a:hover {
+	text-align: left;
+}
+
+.readmore a,div.item a.btn {
+	text-align: left;
+}
+
+.readmore a:hover,div.item a.btn:hover {
+	text-align: left;
+}
+
+.invalid {border: red;}
+                
+input,input.inputbox, .registration input, .login input, .contact input, .contact textarea {
+    border: none;
+	text-align: left;
+}
+
+input:focus,input.inputbox:focus, .registration input:focus, .login input:focus, .contact input:focus, .contact textarea:focus {
+	text-align: left;
+}
+
+#wrapper {
+	border-top:3px solid;
+	width:100%;
+	text-align: left;
+}
+
+#mainbanner {
+	padding: 10px;
+	text-align: left;
+	border-bottom:1px solid #f1f1f1;
+}
+
+#mainbanner div.moduletable, #mainbanner div.module,
+#mainbanner div.moduletable_menu, #mainbanner div.module_menu {
+	text-align: left;
+}
+
+#mainbanner div.moduletable h3, #mainbanner div.module h3,
+#mainbanner div.moduletable_menu h3, #mainbanner div.module_menu h3 {
+	text-align: left;
+}
+
+#logo {
+	text-align: left;
+	margin-right:30%;
+}
+
+#logodesc {
+	text-align: left;
+}
+
+#banner {
+	width: 400px;
+	text-align: left;
+	float:right;
+}
+
+#banner div.moduletable, #banner div.module,
+#banner div.moduletable_menu, #banner div.module_menu {
+	margin: 2px;
+	text-align: left;
+}
+
+#banner div.moduletable h3, #banner div.module h3,
+#banner div.moduletable_menu h3, #banner div.module_menu h3 {
+	text-align: left;
+}
+
+#nav {
+	padding: 10px;
+	text-align: left;
+}
+
+#nav div.moduletable, #nav div.module,
+#nav div.moduletable_menu, #nav div.module_menu {
+	text-align: left;
+}
+
+#nav div.moduletable h3, #nav div.module h3,
+#nav div.moduletable_menu h3, #nav div.module_menu h3 {
+	text-align: left;
+}
+#nav ul.menu {
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+}
+
+#nav ul.menu:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+#nav ul.menu li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style:none;
+    white-space: nowrap;
+}
+
+#nav ul.menu > li > a, #nav ul.menu > li > span.separator {
+    display:block;
+	text-align: left;
+}
+
+#nav ul.menu > li:hover > a {
+	text-align: left;
+}
+
+#nav ul.menu > li.active > a {
+	text-align: left;
+}
+
+#nav ul.menu li li a, #nav ul.menu li li span.separator {
+    display:block;
+	text-align: left;
+}
+
+#nav ul.menu li li:hover > a {
+	text-align: left;
+}
+
+#nav ul.menu li li.active > a {
+	text-align: left;
+}
+
+/* code pour menu normal */
+#nav ul.menu li ul, #nav ul.menu li:hover ul ul, #nav ul.menu li:hover ul ul ul {
+    position: absolute;
+	left: -999em;
+	z-index: 999;
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav ul.menu li:hover ul ul, #nav ul.menu li:hover li:hover ul ul, #nav ul.menu li:hover li:hover li:hover ul ul,
+#nav ul.menu li.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul.sfhover ul ul {
+	left: -999em;
+}
+
+#nav ul.menu li:hover > ul, #nav ul.menu li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover ul li:hover > ul,
+#nav ul.menu li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul li.sfhover ul {
+	left: auto;
+}
+
+#nav ul.menu li:hover ul li:hover ul {
+}
+
+/* fin code normal */
+
+#nav ul.menu.maximenuCK li ul, #nav ul.menu.maximenuCK li:hover ul ul, #nav ul.menu.maximenuCK li:hover ul ul ul,
+#nav ul.menu.maximenuck li ul, #nav ul.menu.maximenuck li:hover ul ul, #nav ul.menu.maximenuck li:hover ul ul ul {
+	position: static !important;
+	left: auto !important;
+	background: transparent !important;
+	border-radius: 0 !important;
+    border: none !important;
+	-moz-border-radius: 0 !important;
+	-o-border-radius:  0 !important;
+	-webkit-border-radius: 0 !important;
+	width: 100% !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+#nav ul.menu.maximenuCK li ul ul,
+#nav ul.menu.maximenuck li ul ul {
+	margin: 0 !important;
+}
+
+#nav li div.floatCK, 
+#nav li div.floatck {
+}
+
+#nav ul.menu li ul.maximenuCK2,
+#nav ul.menu li ul.maximenuck2 {
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul.menu li div.maximenuCK2,
+#nav ul.menu li div.maximenuck2 {
+    float: left;
+    width: 100%;
+}
+
+#nav ul li.maximenuCK div.floatCK div.floatCK,
+#nav ul li.maximenuck div.floatck div.floatck {
+}
+
+#nav span.descCK,
+#nav span.descck {
+    display: block;
+    line-height: 10px;
+}
+
+#nav ul.menu li li {
+    float: none;
+    display: block;
+}
+
+
+#slideshow {
+	text-align: left;
+}
+
+#slideshow div.moduletable, #slideshow div.module,
+#slideshow div.moduletable_menu, #slideshow div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#slideshow div.moduletable h3, #slideshow div.module h3,
+#slideshow div.moduletable_menu h3, #slideshow div.module_menu h3 {
+	text-align: left;
+}
+
+#modulestop > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#modulestop div.moduletable, #modulestop div.module,
+#modulestop div.moduletable_menu, #modulestop div.module_menu {
+	text-align: left;
+}
+
+#modulestop div.moduletable h3, #modulestop div.module h3,
+#modulestop div.moduletable_menu h3, #modulestop div.module_menu h3 {
+	text-align: left;
+}
+
+#moduletop1 > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}	
+
+#moduletop1 div.moduletable, #moduletop1 div.module,
+#moduletop1 div.moduletable_menu, #moduletop1 div.module_menu {
+	text-align: center;
+}
+
+#moduletop1 div.moduletable *, #moduletop1 div.module *,
+#moduletop1 div.moduletable_menu *, #moduletop1 div.module_menu * {
+	text-align: center;
+}
+
+
+
+#moduletop2 > div.inner {
+	text-align: left;
+}
+
+#moduletop2 div.moduletable, #moduletop2 div.module,
+#moduletop2 div.moduletable_menu, #moduletop2 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#moduletop2 div.moduletable h3, #moduletop2 div.module h3,
+#moduletop2 div.moduletable_menu h3, #moduletop2 div.module_menu h3 {
+	text-align: left;
+}
+
+#moduletop3 > div.inner {
+	text-align: left;
+}
+
+#moduletop3 div.moduletable, #moduletop3 div.module,
+#moduletop3 div.moduletable_menu, #moduletop3 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#moduletop3 div.moduletable h3, #moduletop3 div.module h3,
+#moduletop3 div.moduletable_menu h3, #moduletop3 div.module_menu h3 {
+	text-align: left;
+}
+
+#moduletop4 > div.inner {
+	text-align: left;
+}
+
+#moduletop4 div.moduletable, #moduletop4 div.module,
+#moduletop4 div.moduletable_menu, #moduletop4 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#moduletop4 div.moduletable h3, #moduletop4 div.module h3,
+#moduletop4 div.moduletable_menu h3, #moduletop4 div.module_menu h3 {
+	text-align: left;
+}
+
+#main {
+	text-align: left;
+	border-top: 5px solid #f8572c;
+	border-bottom: 5px solid #f8572c;
+	padding-bottom:22px;
+	background-image: url("../images/brillant.png")
+}
+
+#main div.moduletable, #main div.module,
+#main div.moduletable_menu, #main div.module_menu {
+	text-align: left;
+}
+
+#main div.moduletable h3, #main div.module h3,
+#main div.moduletable_menu h3, #main div.module_menu h3 {
+	text-align: left;
+}
+
+#left > div.inner {
+	zoom: 1;
+	text-align: left;
+	color:#2E2E2E;
+    background-color:#D9EBEF;
+	margin-top:16px;
+}
+
+#left div.moduletable, #left div.module,
+#left div.moduletable_menu, #left div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#left div.moduletable h3, #left div.module h3,
+#left div.moduletable_menu h3, #left div.module_menu h3 {
+	text-align: left;
+}
+
+#center > div.inner {
+	zoom: 1;
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#center div.moduletable, #center div.module,
+#center div.moduletable_menu, #center div.module_menu {
+	text-align: left;
+}
+
+#center div.moduletable h3, #center div.module h3,
+#center div.moduletable_menu h3, #center div.module_menu h3 {
+	text-align: left;
+}
+
+#right > div.inner {
+	zoom: 1;
+	text-align: left;
+	color:#2E2E2E;
+    background-color:#D9EBEF;
+	margin-top:16px;
+}
+
+#right div.moduletable, #right div.module,
+#right div.moduletable_menu, #right div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#right div.moduletable h3, #right div.module h3,
+#right div.moduletable_menu h3, #right div.module_menu h3 {
+	text-align: left;
+}
+
+#modulesbottom > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#modulesbottom div.moduletable, #modulesbottom div.module,
+#modulesbottom div.moduletable_menu, #modulesbottom div.module_menu {
+	text-align: left;
+}
+
+#modulesbottom div.moduletable h3, #modulesbottom div.module h3,
+#modulesbottom div.moduletable_menu h3, #modulesbottom div.module_menu h3 {
+	text-align: left;
+}
+
+#modulebottom1 > div.inner {
+	text-align: left;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:6px;
+	margin:2px;
+}
+
+#modulebottom1 div.moduletable, #modulebottom1 div.module,
+#modulebottom1 div.moduletable_menu, #modulebottom1 div.module_menu {
+	text-align: center;
+}
+
+#modulebottom1 div.moduletable h3, #modulebottom1 div.module h3,
+#modulebottom1 div.moduletable_menu h3, #modulebottom1 div.module_menu h3 {
+	margin: 2px;
+	text-align: center;
+}
+
+#modulebottom2 > div.inner {
+	text-align: left;
+}
+
+#modulebottom2 div.moduletable, #modulebottom2 div.module,
+#modulebottom2 div.moduletable_menu, #modulebottom2 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: center;
+}
+
+#modulebottom2 div.moduletable h3, #modulebottom2 div.module h3,
+#modulebottom2 div.moduletable_menu h3, #modulebottom2 div.module_menu h3 {
+	text-align: center;
+}
+
+#modulebottom3 > div.inner {
+	text-align: left;
+}
+
+#modulebottom3 div.moduletable, #modulebottom3 div.module,
+#modulebottom3 div.moduletable_menu, #modulebottom3 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: center;
+}
+
+#modulebottom3 div.moduletable h3, #modulebottom3 div.module h3,
+#modulebottom3 div.moduletable_menu h3, #modulebottom3 div.module_menu h3 {
+	text-align: center;
+}
+
+#modulebottom4 > div.inner {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#modulebottom4 div.moduletable, #modulebottom4 div.module,
+#modulebottom4 div.moduletable_menu, #modulebottom4 div.module_menu {
+	text-align: center;
+}
+
+#modulebottom4 div.moduletable h3, #modulebottom4 div.module h3,
+#modulebottom4 div.moduletable_menu h3, #modulebottom4 div.module_menu h3 {
+	text-align: center;
+}
+
+#top-footer {
+	text-align: center;
+}
+
+#top-footer div.moduletable, #top-footer div.module,
+#top-footer div.moduletable_menu, #top-footer div.module_menu {
+	padding-bottom:0px;
+	text-align: center;
+}
+
+#top-footer div.moduletable h3, #top-footer div.module h3,
+#top-footer div.moduletable_menu h3, #top-footer div.module_menu h3 {
+	text-align: left;
+}
+
+#modules > div.inner {
+	padding: 12px;
+	text-align: left;
+}
+
+#modules div.moduletable, #modules div.module,
+#modules div.moduletable_menu, #modules div.module_menu {
+	text-align: left;
+	padding:12px;
+	padding-bottom:10px;
+}
+
+#modules div.moduletable h3, #modules div.module h3,
+#modules div.moduletable_menu h3, #modules div.module_menu h3 {
+	text-align: left;
+}
+
+#module1 > div.inner {
+	text-align: left;
+}
+
+#module1 div.moduletable, #module1 div.module,
+#module1 div.moduletable_menu, #module1 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#module1 div.moduletable h3, #module1 div.module h3,
+#module1 div.moduletable_menu h3, #module1 div.module_menu h3 {
+	text-align: left;
+	color:white;
+}
+
+#module2 > div.inner {
+	text-align: left;
+}
+
+#module2 div.moduletable, #module2 div.module,
+#module2 div.moduletable_menu, #module2 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#module2 div.moduletable h3, #module2 div.module h3,
+#module2 div.moduletable_menu h3, #module2 div.module_menu h3 {
+	text-align: left;
+	color:white;
+}
+
+#module3 > div.inner {
+	text-align: left;
+}
+
+#module3 div.moduletable, #module3 div.module,
+#module3 div.moduletable_menu, #module3 div.module_menu {
+	text-align: left;	
+}
+
+#module3 div.moduletable h3, #module3 div.module h3,
+#module3 div.moduletable_menu h3, #module3 div.module_menu h3 {
+	text-align: left;
+	color:white;
+}
+
+#module4 > div.inner {
+	text-align: left;
+}
+
+#module4 div.moduletable, #module4 div.module,
+#module4 div.moduletable_menu, #module4 div.module_menu {
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+}
+
+#module4 div.moduletable h3, #module4 div.module h3,
+#module4 div.moduletable_menu h3, #module4 div.module_menu h3 {
+	text-align: left;
+	color:white;
+}
+
+
+
+#nav {
+	padding: 10px;
+	text-align: left;
+	color:#7B7B7B;
+}
+
+#nav div.moduletable, #nav div.module,
+#nav div.moduletable_menu, #nav div.module_menu {
+	text-align: left;
+	
+}
+
+#nav div.moduletable h3, #nav div.module h3,
+#nav div.moduletable_menu h3, #nav div.module_menu h3 {
+	text-align: left;
+}
+#nav ul.menu {
+    margin: 0;
+    padding: 0;
+    zoom: 1;		
+}
+
+#nav ul.menu:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+#nav ul.menu li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style:none;
+    white-space: nowrap;		
+}
+
+#nav ul.menu > li > a, #nav ul.menu > li > span.separator {
+    display:block;
+    text-align: left;
+    color:#585858;	
+}
+
+#nav ul.menu > li:hover > a {
+	text-align: left;
+
+}
+
+#nav ul.menu > li.active > a {
+	text-align: left;
+	color:#F8572C;	
+}
+
+#nav ul.menu > li.active > a:hover {
+	text-align: left;
+	color:#A12D0E;
+}
+
+
+
+
+#nav ul.menu li li a, #nav ul.menu li li span.separator {
+    display:block;
+	text-align:left;
+	width:180px;
+	/*margin:1px;*/
+	padding:5px;
+    background: rgba(255,255,255,0.9);
+	height:30px;
+	color:#F8572C;	
+	border-bottom:1px dotted #1f1f1f;
+	/**pobrar con algo como last child*/
+}
+
+#nav ul li ul {
+/**shadow*/
+/*-webkit-box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 6px -8px rgba(0,0,0,0.75);*/
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+}
+
+
+#nav ul.menu li:last-child  a{
+    
+	border-bottom:none;
+	/**pobrar con algo como last child*/
+}
+
+
+
+#nav ul.menu li li a:hover{
+	color:#1f1f1f;
+    display:block;
+	text-align: left;
+	width:180px;
+	/*margin:1px;*/
+	padding:5px;
+    background: rgba(255,255,255,0.7);
+	height:30px;	
+}
+
+#topnavwrapper a {
+	color: rgba(255, 255, 255, 0.9);	
+	}
+
+#topnavwrapper ul li a:hover {
+    color: #F8572C;
+
+}
+
+/**MIO letras verdes inicio*/
+.grande {
+	font-size:30px;
+	color:#00786e;
+	font-height:bold;
+	text-transform:uppercase;
+}
+
+#nav ul.menu li li:hover > a {
+	text-align: left;
+}
+
+#nav ul.menu li li.active > a {
+	text-align: left;
+}
+
+/* code pour menu normal */
+#nav ul.menu li ul, #nav ul.menu li:hover ul ul, #nav ul.menu li:hover ul ul ul {
+    position: absolute;
+	left: -999em;
+	z-index: 999;
+    padding: 0;	
+}
+
+#nav ul.menu li:hover ul ul, #nav ul.menu li:hover li:hover ul ul, #nav ul.menu li:hover li:hover li:hover ul ul,
+#nav ul.menu li.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul.sfhover ul ul {
+	left: -999em;
+	margin-top:-38px;
+	margin-left:190px;
+}
+
+#nav ul.menu li:hover > ul, #nav ul.menu li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover ul li:hover > ul,
+#nav ul.menu li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul li.sfhover ul {
+	left: auto;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:white;
+}
+
+#nav ul.menu li:hover ul li:hover ul {
+
+}
+
+/* fin code normal */
+
+#nav ul.menu.maximenuCK li ul, #nav ul.menu.maximenuCK li:hover ul ul, #nav ul.menu.maximenuCK li:hover ul ul ul,
+#nav ul.menu.maximenuck li ul, #nav ul.menu.maximenuck li:hover ul ul, #nav ul.menu.maximenuck li:hover ul ul ul {
+	position: static !important;
+	left: auto !important;
+	background: transparent !important;
+	border-radius: 0 !important;
+    border: none !important;
+	-moz-border-radius: 0 !important;
+	-o-border-radius:  0 !important;
+	-webkit-border-radius: 0 !important;
+	width: 100% !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+#nav ul.menu.maximenuCK li ul ul,
+#nav ul.menu.maximenuck li ul ul {
+	margin: 0 !important;
+}
+
+#nav li div.floatCK, 
+#nav li div.floatck {
+}
+
+#nav ul.menu li ul.maximenuCK2,
+#nav ul.menu li ul.maximenuck2 {
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul.menu li div.maximenuCK2,
+#nav ul.menu li div.maximenuck2 {
+    float: left;
+    width: 100%;
+}
+
+#nav ul li.maximenuCK div.floatCK div.floatCK,
+#nav ul li.maximenuck div.floatck div.floatck {
+}
+
+#nav span.descCK,
+#nav span.descck {
+    display: block;
+    line-height: 10px;
+}
+
+#nav ul.menu li li {
+    float: none;
+    display: block;
+}
+
+
+/**MIO*/
+#moduleswrapper, #modulestopwrapper, #modulesbottomwrapper, #topfooterwrapper, #mainwrapper, #footernavwrapper, #topnavwrapper, #logosearchwrapper{
+	margin: 0 auto;
+	max-width:1100px;
+}
+
+ #modulestop {
+   padding: 35px; 
+}
+
+ #modulesbottom {
+	padding: 10px;
+	text-align: left;
+}
+  
+  #modules {
+	padding: 30px 20px 30px;
+	margin-bottom:-13px;
+	color:#7B7B7B;
+	background-color:#1F1F1F;
+}
+
+#slideshow {
+}
+	
+#slideshow div.moduletable {
+	margin:0px;
+	padding:0px;
+}
+
+.moduletable h3{
+   font-size: 1.65em;   
+   color: #000;
+   text-transform: uppercase;
+}
+
+#right {
+    outline-offset: -7px;
+}
+
+#footernavwrapper{
+	padding:10px;
+	border-top: 1px solid #2F2F2F;
+	font-size:0.9em;
+}
+
+#moduleswrapper{
+}
+
+
+a {
+	color:#f8572c;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#000;
+	transition:0.5s;
+	font-weight:bold;
+}
+
+.line{
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto 15px;
+    width: 100px;
+}
+
+.search form input{
+	border: 5px solid white; 
+	-webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+	-moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+	box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 7px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
+.search form input:hover{
+	box-shadow:0 0 10px #FFF;
+}
+
+.navbottom {
+	background-color:#1F1F1F;
+}
+			
+#footernavwrapper ul li a {
+	margin:8px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+		
+#footernavwrapper ul li  {
+    border-right: 1px solid #B3B3B3;
+}
+
+#topnavwrapper ul li a {
+	padding:5px;
+	padding-right:8px;
+
+}
+
+ li.current a {
+	padding:10px;
+	/*background-color: #BA5F47;*/
+	border-bottom: 4px solid #333;
+	color:#333333;
+}
+
+#slideshow{
+	background-image:url('../images/big_image.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#000;
+	color:#FFF;
+}
+
+#slideshow *{
+text-align:center;
+}
+
+
+
+/**submenu level 1*/
+#topnavwrapper ul li ul {
+	border-top:2px solid #1f1f1f;
+    -webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	 -o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	
+}
+
+#topnavwrapper ul li ul:after{
+    border-bottom: 6px solid #1f1f1f;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0px;
+    left: 30px;
+    position: absolute;
+    top: -8px;
+    width: 0px;
+}
+
+li.parent > a:after {
+
+content:"▼";
+color:#F8572C;
+
+
+}
+
+/**submenu level2*/
+#topnavwrapper ul li ul li ul{
+	border-top:none;
+	border-left:2px solid #1f1f1f;
+    -webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	 -o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}	
+	
+#topnavwrapper ul li ul li ul:after{
+    border-bottom: 9px solid #1f1f1f;
+    border-left: 9px solid transparent;
+    border-right: 0px solid transparent;
+    content: "";
+    display: inline-block;
+    height: 0px;
+    left: -10px;
+    position: absolute;
+    top:14px;
+    width: 0px;
+}
+
+
+li.parent li.parent > a:after {
+
+content:"\203A";
+color:#1f1f1f;
+position:absolute;
+left:191px;
+font-size:15px;
+
+}
+
+
+#modulesbottomwrapper > div {
+
+
+margin-top:15px;
+
+
+}
+
+
+.paraslide{
+font-family: 'Lato', sans-serif;
+
+}
+
+
+
+/**
+TODO embossed hr footer
+
+http://www.freepik.com/free-vector/logo-wave-your-business_701558.htm
+http://www.freepik.com/free-psd/business-company-psd-logo-template-with-sea-shell-illustration_611754.htm
+http://www.freepik.com/free-vector/logo-town-hall_701629.htm
+http://www.freepik.com/free-psd/free-logo-design-for-computers-and-technology_611730.htm
+http://www.freepik.com/free-vector/logo-camera-studiogabrielle_701578.htm
+
+http://www.freepik.com/index.php?goto=2&k=logo&isCat=1&isKeyword=1&order=2&searchform=1&vars=31
+
+*/
+
